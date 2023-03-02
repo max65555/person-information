@@ -1,0 +1,22 @@
+﻿.container {
+    padding-left: 14px;
+}
+.label {
+    font-size: 14px;
+    padding-bottom: 4px;
+    display: block;
+}
+
+.input-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.input-item {
+    display: flex;
+    align-items: center;
+    padding-right: 18px;
+}
+input{
+    margin-right:12px;
+}

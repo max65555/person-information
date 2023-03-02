@@ -1,0 +1,24 @@
+﻿@page "/button"
+<div class="button_container">
+    <button @onclick="ClickTheButton" type="button" class="
+    button-style">@label</button>
+</div>
+<style>
+    .button_container {
+    display:flex;
+    justify-content:center;
+}
+.button-style{
+}
+</style>
+
+@code {
+    [Parameter]
+    public string? label { get; set; }
+    [Parameter]
+    public EventCallback OnButtonClick { get; set; }
+    private async Task ClickTheButton()
+    {
+        await OnButtonClick.InvokeAsync();
+    }
+}

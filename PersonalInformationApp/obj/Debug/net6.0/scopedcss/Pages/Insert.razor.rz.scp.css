@@ -1,0 +1,11 @@
+.container[b-rzca7c8qsa] {
+    max-width:calc(100% - 40%);  
+    margin-left: auto;
+    margin-right: auto;
+    padding:12px;
+    border-radius:8px;
+    border: 1px solid gray; 
+}
+.input-wrapper[b-rzca7c8qsa] {
+    display:flex;
+}

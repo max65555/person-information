@@ -1,0 +1,33 @@
+﻿@using System.Net.Http
+@using System.Net.Http.Json
+@inject NavigationManager _navigationManager
+@inject HttpClient Http
+@page "/insert"
+<h3>Insert</h3>
+<div class="container">
+    <div class="input-wrapper">
+        <Comp_Input placeholder="Enter your First Name" label="First Name" @bind-TheValue="firstName"></Comp_Input>
+        <Comp_Input placeholder="Enter your Last Name" label="Last Name" @bind-TheValue="lastName"></Comp_Input>
+    </div>
+    <Comp_Input placeholder="address" label="Address" @bind-TheValue="address"></Comp_Input>
+    <Comp_checkBox label="Gender" nameOfValue="@genderOption"></Comp_checkBox>
+    <div style="margin-right:auto;margin-left:auto">
+        <Comp_Button label="Save" OnButtonClick="@DummyFunction"></Comp_Button>
+    </div>
+</div>
+@code {
+    private string firstName = "";
+    private string lastName = "";
+    private string address = "";
+    private string gender = "";
+    private string[] genderOption = new String[2]
+    {
+        "Male","Female"
+    };
+    private async void DummyFunction()
+    {
+        var addItem = new Person { firstName = firstName ,lastName = lastName,address=address, gender=gender ,};
+        await Http.PostAsJsonAsync("https://localhost:7126/api/person", addItem);
+    }
+
+}

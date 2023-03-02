@@ -1,0 +1,57 @@
+﻿@page "/data-table"
+@using System.Net.Http
+@using System.Net.Http.Json
+@inject NavigationManager _navigationManager
+@inject HttpClient Http
+<div class="container">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">FirstName</th>
+                <th scope="col">LastName</th>
+                <th scope="col">Address</th>
+                <th scope="col">Gender</th>
+                <th scope="col">Function</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!--foreach-->
+            @foreach (var i in listOfPerson)
+            {
+                <tr>
+                    <td>@i.personID</td>
+                    <td>@i.firstName</td>
+                    <td>@i.lastName</td>
+                    <td>@i.address</td>
+                    <td>@i.gender</td>
+                    <td>
+                        <Comp_Button label="delete"
+                                 OnButtonClick="()=>DeleteEvent(i.personID)"></Comp_Button>
+
+                    </td>
+                </tr>
+            }
+            <!--end foreach-->
+        </tbody>
+    </table>
+</div>
+
+@code {
+    private Person[]? listOfPerson;
+    private dynamic notify;
+    protected override async Task OnInitializedAsync(){
+        listOfPerson = await Http.GetFromJsonAsync<Person[]>("https://localhost:7126/api/person"); 
+    }
+    public async void getData(){
+        listOfPerson = await Http.GetFromJsonAsync<Person[]>("https://localhost:7126/api/person");
+        _navigationManager.NavigateTo("data-table",true);
+    }
+    public async void DeleteEvent(int i){
+        //notify = await Http.DeleteAsync("https:localhost:7126/api/person/" + i);
+        Console.WriteLine("deleting " + i);
+        notify = await Http.DeleteAsync("https://localhost:7126/api/person/" + i);
+        Console.WriteLine(notify);
+        getData();
+    }
+}

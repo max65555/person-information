@@ -1,0 +1,204 @@
+/* /Pages/Comp_checkBox.razor.rz.scp.css */
+.container[b-78f1vpdvw7] {
+    padding-left: 14px;
+}
+.label[b-78f1vpdvw7] {
+    font-size: 14px;
+    padding-bottom: 4px;
+    display: block;
+}
+
+.input-wrapper[b-78f1vpdvw7] {
+    display: flex;
+    align-items: center;
+}
+
+.input-item[b-78f1vpdvw7] {
+    display: flex;
+    align-items: center;
+    padding-right: 18px;
+}
+input[b-78f1vpdvw7]{
+    margin-right:12px;
+}
+/* /Pages/Comp_Input.razor.rz.scp.css */
+.container[b-7tcr1edzfc] {
+    display: flex;
+    flex-direction: column;
+    margin:4px;
+}
+
+.input-wrapper[b-7tcr1edzfc] {
+    border: 1px solid rgb(202, 202, 202);
+    padding: 8px;
+    border-radius: 4px;
+}
+
+.input-label[b-7tcr1edzfc] {
+    display: block;
+    padding-bottom: 8px;
+}
+
+.input-text[b-7tcr1edzfc] {
+    border: none;
+    outline: none;
+    font-size: 14px;
+    width: 100%;
+}
+/* /Pages/Insert.razor.rz.scp.css */
+.container[b-rzca7c8qsa] {
+    max-width:calc(100% - 40%);  
+    margin-left: auto;
+    margin-right: auto;
+    padding:12px;
+    border-radius:8px;
+    border: 1px solid gray; 
+}
+.input-wrapper[b-rzca7c8qsa] {
+    display:flex;
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-mnmwd32vp0] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-mnmwd32vp0] {
+    flex: 1;
+}
+
+.sidebar[b-mnmwd32vp0] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-mnmwd32vp0] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-mnmwd32vp0]  a, .top-row[b-mnmwd32vp0]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-mnmwd32vp0]  a:hover, .top-row[b-mnmwd32vp0]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-mnmwd32vp0]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-mnmwd32vp0] {
+        display: none;
+    }
+
+    .top-row.auth[b-mnmwd32vp0] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-mnmwd32vp0]  a, .top-row[b-mnmwd32vp0]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-mnmwd32vp0] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-mnmwd32vp0] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-mnmwd32vp0] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-mnmwd32vp0]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-mnmwd32vp0], article[b-mnmwd32vp0] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+/* /Shared/NavMenu.razor.rz.scp.css */
+.navbar-toggler[b-z2lglyjcs2] {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.top-row[b-z2lglyjcs2] {
+    height: 3.5rem;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.navbar-brand[b-z2lglyjcs2] {
+    font-size: 1.1rem;
+}
+
+.oi[b-z2lglyjcs2] {
+    width: 2rem;
+    font-size: 1.1rem;
+    vertical-align: text-top;
+    top: -2px;
+}
+
+.nav-item[b-z2lglyjcs2] {
+    font-size: 0.9rem;
+    padding-bottom: 0.5rem;
+}
+
+    .nav-item:first-of-type[b-z2lglyjcs2] {
+        padding-top: 1rem;
+    }
+
+    .nav-item:last-of-type[b-z2lglyjcs2] {
+        padding-bottom: 1rem;
+    }
+
+    .nav-item[b-z2lglyjcs2]  a {
+        color: #d7d7d7;
+        border-radius: 4px;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        line-height: 3rem;
+    }
+
+.nav-item[b-z2lglyjcs2]  a.active {
+    background-color: rgba(255,255,255,0.25);
+    color: white;
+}
+
+.nav-item[b-z2lglyjcs2]  a:hover {
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+}
+
+@media (min-width: 641px) {
+    .navbar-toggler[b-z2lglyjcs2] {
+        display: none;
+    }
+
+    .collapse[b-z2lglyjcs2] {
+        /* Never collapse the sidebar for wide screens */
+        display: block;
+    }
+}

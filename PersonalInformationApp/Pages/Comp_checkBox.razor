@@ -1,0 +1,22 @@
+﻿<div class="container">
+    <span class="label">@label</span>
+    <div class="input-wrapper">
+            @foreach (var i in nameOfValue)
+    {
+        <div class="input-item">
+            <input id="@i" type="radio" name="dummy-text" value="@i" />
+            <label for="@i">
+                @i
+            </label>
+        </div>
+    }
+    </div>
+</div>
+@code {
+    [Parameter]
+    public string label { get; set; } = "";
+    //public int numberOfCheckbox = 0;
+    [Parameter]
+    public string[] nameOfValue { get; set; }
+
+}

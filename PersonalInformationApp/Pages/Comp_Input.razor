@@ -1,0 +1,27 @@
+﻿<div class="container">
+    <span class="input-label">@label</span>
+    <div class="input-wrapper">
+        <input type="text"
+            placeholder="@placeholder"
+               class="input-text" value="@TheValue"
+               @oninput="OnTheValueChanged" />
+    </div>
+</div>
+@code {
+    [Parameter]
+    public string?  placeholder { get; set; } = "";
+    [Parameter]
+    public string? label { get; set; } = "";
+
+    //Bind value
+    [Parameter]
+    public string TheValue { get; set; }
+    [Parameter]
+    public EventCallback<string> TheValueChanged { get; set; }
+
+    private Task OnTheValueChanged(ChangeEventArgs e)
+    {
+        TheValue = e.Value.ToString();
+        return TheValueChanged.InvokeAsync(TheValue);
+    }
+}
