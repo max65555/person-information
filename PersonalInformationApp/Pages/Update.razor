@@ -1,0 +1,38 @@
+﻿@using System.Net.Http
+@using Newtonsoft.Json
+@inject NavigationManager _navigationManager
+@inject HttpClient Http
+@page "/update/{personid:int}"
+    <h3>Update</h3>
+<div class="container">
+    <div class="input-wrapper">
+        <Comp_Input placeholder="Enter your First Name" label="First Name" @bind-TheValue="currentPerson.firstName"></Comp_Input>
+        <Comp_Input placeholder="Enter your Last Name" label="Last Name" @bind-TheValue="currentPerson.lastName"></Comp_Input>
+    </div>
+    <Comp_Input placeholder="address" label="Address" @bind-TheValue="currentPerson.address"></Comp_Input>
+    <Comp_checkBox label="Gender" nameOfValue="@genderOption" @bind-SelectedValue="@currentPerson.gender" ></Comp_checkBox>
+    <div style="margin-right:auto;margin-left:auto">
+        <Comp_Button label="Save" OnButtonClick="@Save"></Comp_Button>
+    </div>
+</div>
+
+@code {
+    [Parameter]
+    public int Personid{ get; set; }
+    private Person currentPerson = new Person();
+    private string[] genderOption = new String[2]
+    {
+        "Male","Female"
+    };
+    protected override async Task OnInitializedAsync()
+    {
+        currentPerson = await Http.GetFromJsonAsync<Person>("https://localhost:7126/api/person/" + this.Personid);
+        Console.WriteLine(JsonConvert.SerializeObject(currentPerson));
+    }
+    private async void getPerson(){
+        currentPerson = await Http.GetFromJsonAsync<Person>("https://localhost:7126/api/person/" + this.Personid);
+    }
+    public async void Save(){
+        await Http.PutAsJsonAsync($"https://localhost:7126/api/person/{Personid}", currentPerson);
+    }
+}

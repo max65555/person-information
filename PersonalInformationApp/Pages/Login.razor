@@ -1,0 +1,15 @@
+﻿@page "/login"
+<h3>Login </h3>
+<form @onsubmit="SubmitForm">
+    <Comp_Input label="UserName" @bind-TheValue="userName"></Comp_Input>
+    <Comp_Input label="Password" @bind-TheValue="password" typeOfInput="password"></Comp_Input>
+    <button type="submit" class="btn btn-success">Send</button>
+</form>
+@code {
+    private string userName;
+    private string password;
+    public void SubmitForm()
+    {
+        Console.WriteLine(userName +" " +password);
+    }
+}

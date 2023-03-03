@@ -1,33 +1,66 @@
 ﻿@using System.Net.Http
-@using System.Net.Http.Json
+@using Newtonsoft.Json
+@using System.Reflection;
 @inject NavigationManager _navigationManager
 @inject HttpClient Http
+
 @page "/insert"
 <h3>Insert</h3>
-<div class="container">
-    <div class="input-wrapper">
-        <Comp_Input placeholder="Enter your First Name" label="First Name" @bind-TheValue="firstName"></Comp_Input>
-        <Comp_Input placeholder="Enter your Last Name" label="Last Name" @bind-TheValue="lastName"></Comp_Input>
+<form >
+    <div class="container" >
+        <div class="input-wrapper">
+            <Comp_Input placeholder="Enter your First Name" label="First Name" @bind-TheValue="firstName"></Comp_Input>
+            <Comp_Input placeholder="Enter your Last Name" label="Last Name" @bind-TheValue="lastName"></Comp_Input>
+        </div>
+        <Comp_Input placeholder="address" label="Address" @bind-TheValue="address"></Comp_Input>
+        <Comp_checkBox label="Gender" nameOfValue="@genderOption" @bind-SelectedValue="@gender"></Comp_checkBox>
+        <div style="margin-right:auto;margin-left:auto">
+            <Comp_Button label="Save" OnButtonClick="@Save"></Comp_Button>
+        </div>
+        @if (isNotify)
+        {
+            <Notify notifyType="Notification" notifyMessage="@NotifyMessage" notifyIcon="@NotifyIcon"
+                color="@NotifyColor"></Notify>
+         }
     </div>
-    <Comp_Input placeholder="address" label="Address" @bind-TheValue="address"></Comp_Input>
-    <Comp_checkBox label="Gender" nameOfValue="@genderOption"></Comp_checkBox>
-    <div style="margin-right:auto;margin-left:auto">
-        <Comp_Button label="Save" OnButtonClick="@DummyFunction"></Comp_Button>
-    </div>
-</div>
+</form>
 @code {
     private string firstName = "";
     private string lastName = "";
     private string address = "";
     private string gender = "";
+    private bool isNotify = false;
+    private string NotifyMessage = "";
+    private string NotifyColor = "green";
+    private string NotifyIcon;
+    //private string errorClass = "errorClass";
     private string[] genderOption = new String[2]
     {
         "Male","Female"
     };
-    private async void DummyFunction()
+    private async void Save()
     {
-        var addItem = new Person { firstName = firstName ,lastName = lastName,address=address, gender=gender ,};
-        await Http.PostAsJsonAsync("https://localhost:7126/api/person", addItem);
+        var addItem = new Person { firstName = firstName ,lastName = lastName,address = address, gender = gender};
+        foreach (PropertyInfo prop in addItem.GetType().GetProperties())
+        {
+            var type = Nullable.GetUnderlyingType(prop.PropertyType) ?? prop.PropertyType;
+            Console.WriteLine(prop.GetValue(addItem, null).ToString());
+            if (string.IsNullOrWhiteSpace(prop.GetValue(addItem, null).ToString())){
+                // create pop up
+                isNotify = true;
+                NotifyMessage = prop.Name + " field should not be null!";
+                NotifyIcon = "oi-circle-x";
+                NotifyColor = "red";
+                return;
+            }
+        }
+        //Console.WriteLine(JsonConvert.SerializeObject(addItem));
+        await Http.PostAsJsonAsync("https://localhost:7126/api/person", true);
+        _navigationManager.NavigateTo("data-table");
+        NotifyMessage =" Success";
+        NotifyIcon = "oi-circle-check";
+        NotifyColor = "green";
+
     }
 
 }

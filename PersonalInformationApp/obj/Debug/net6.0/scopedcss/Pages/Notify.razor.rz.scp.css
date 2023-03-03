@@ -1,0 +1,21 @@
+.notify-container[b-gjyt3wfow2] {
+    padding: 12px;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+.notify-logo[b-gjyt3wfow2]{
+    width:50px;
+    height:50px;
+    font-size:50px;
+
+}
+.notify-wrapper[b-gjyt3wfow2]{
+    display:flex;
+    align-items:center;
+}
+.notify-title[b-gjyt3wfow2] {
+    padding: 4px;
+}
+.notify-detail[b-gjyt3wfow2] {
+    padding: 4px;
+    text-align:center;
+}

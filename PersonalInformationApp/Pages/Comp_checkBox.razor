@@ -2,14 +2,27 @@
     <span class="label">@label</span>
     <div class="input-wrapper">
             @foreach (var i in nameOfValue)
-    {
-        <div class="input-item">
-            <input id="@i" type="radio" name="dummy-text" value="@i" />
-            <label for="@i">
-                @i
-            </label>
-        </div>
-    }
+            {
+                @if(i == SelectedValue)
+                {
+                    <div class="input-item">
+                        <input id="@i" type="radio" name="dummy-text" value="@i" onchange="@OnValueChanged" checked>
+                        <label for="@i">
+                            @i
+                        </label>
+                    </div>
+                }
+                else
+                {
+                    <div class="input-item">
+                        <input id="@i" type="radio" name="dummy-text" value="@i" onchange="@OnValueChanged" >
+                        <label for="@i">
+                            @i
+                        </label>
+                    </div>
+                }
+
+            }
     </div>
 </div>
 @code {
@@ -18,5 +31,14 @@
     //public int numberOfCheckbox = 0;
     [Parameter]
     public string[] nameOfValue { get; set; }
+    [Parameter]
+    public string SelectedValue { get; set; }
+    [Parameter]
+    public EventCallback<string> SelectedValueChanged{ get; set; }
+    private Task OnValueChanged(ChangeEventArgs e)
+    {
+        SelectedValue = e.Value.ToString();
+        return SelectedValueChanged.InvokeAsync(SelectedValue);
+    }
 
 }

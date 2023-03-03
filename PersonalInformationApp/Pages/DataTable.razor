@@ -1,8 +1,13 @@
 ﻿@page "/data-table"
+@page "/data-table?insert={insertResult?}"
 @using System.Net.Http
 @using System.Net.Http.Json
+@using System.IO
+@using Newtonsoft.Json 
+@inject IJSRuntime JS
 @inject NavigationManager _navigationManager
 @inject HttpClient Http
+
 <div class="container">
     <table class="table">
         <thead class="thead-dark">
@@ -25,19 +30,34 @@
                     <td>@i.lastName</td>
                     <td>@i.address</td>
                     <td>@i.gender</td>
-                    <td>
+                    <td class="function-row">
                         <Comp_Button label="delete"
                                  OnButtonClick="()=>DeleteEvent(i.personID)"></Comp_Button>
-
+                        <Comp_Button label="update"
+                                 OnButtonClick="()=>UpdateEvent(i.personID)"></Comp_Button>
                     </td>
                 </tr>
             }
             <!--end foreach-->
         </tbody>
     </table>
+    @if(insertResult == "true"){
+        <div>test1</div>
+    }
 </div>
+<style>
+.function-row{
+    display:flex;
+}
+
+    .function-row:first-child{
+        padding-right:4px;
+    }
+</style>
 
 @code {
+    [Parameter]
+    public string insertResult { get; set; }
     private Person[]? listOfPerson;
     private dynamic notify;
     protected override async Task OnInitializedAsync(){
@@ -45,7 +65,8 @@
     }
     public async void getData(){
         listOfPerson = await Http.GetFromJsonAsync<Person[]>("https://localhost:7126/api/person");
-        _navigationManager.NavigateTo("data-table",true);
+        StateHasChanged();
+        //_navigationManager.NavigateTo("data-table",true);
     }
     public async void DeleteEvent(int i){
         //notify = await Http.DeleteAsync("https:localhost:7126/api/person/" + i);
@@ -54,4 +75,23 @@
         Console.WriteLine(notify);
         getData();
     }
+    public void UpdateEvent(int id){
+        _navigationManager.NavigateTo($"update/{id}", true);
+    }
+    //private Stream GetFileStream(){
+    //    var fileValue = JsonConvert.SerializeObject(listOfPerson);
+
+    //    var fileStream = new MemoryStream(fileValue);
+
+    //    return fileStream;
+    //}
+    //private async Task DownloadFileFromStream()
+    //{
+    //    var fileStream = GetFileStream();
+    //    var fileName = "log.json";
+
+    //    using var streamRef = new DotNetStreamReference(stream: fileStream);
+
+    //    await JS.InvokeVoidAsync("downloadFileFromStream", fileName, streamRef);
+    //}
 }

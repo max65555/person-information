@@ -1,0 +1,14 @@
+﻿@page "/life-circle/{Param?}"
+<div>
+    <p>@message</p>
+</div>
+@code {
+    private string message = "not set";
+    [Parameter]
+    public string? Param{ get; set; }
+    public override async Task SetParametersAsync(ParameterView parameters)
+    {
+        await base.SetParametersAsync(parameters);
+    }
+
+}

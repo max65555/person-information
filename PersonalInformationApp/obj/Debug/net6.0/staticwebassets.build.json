@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HlGwXTjHLbyzRMZSUHt+6SozY6Uva6PHr7s7ZuzD7d8=",
+  "Hash": "tS/2q2ISAbJa9CA0z3hKWUfrBowML2TaOx8qEH1A76Q=",
   "Source": "PersonalInformationApp",
   "BasePath": "/",
   "Mode": "Root",
@@ -184,7 +184,24 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ToanLK\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.13\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\ToanLK\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.14\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
+      "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "SourceId": "PersonalInformationApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ToanLK\\.nuget\\packages\\microsoft.aspnetcore.components.authorization\\6.0.14\\lib\\net6.0\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -201,7 +218,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ToanLK\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.13\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\ToanLK\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.14\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -269,7 +286,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ToanLK\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.13\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\ToanLK\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.14\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -661,6 +678,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ToanLK\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.14\\runtimes\\browser-wasm\\lib\\net6.0\\netstandard.dll"
+    },
+    {
+      "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "SourceId": "PersonalInformationApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ToanLK\\.nuget\\packages\\newtonsoft.json\\13.0.2\\lib\\net6.0\\Newtonsoft.Json.dll"
     },
     {
       "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\PersonalInformationApp.dll",
@@ -3604,23 +3638,6 @@
       "OriginalItemSpec": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Configuration.dll"
     },
     {
-      "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\obj\\Debug\\net6.0\\build-gz\\1SLe3DWZ.gz",
-      "SourceId": "PersonalInformationApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
-    },
-    {
       "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\obj\\Debug\\net6.0\\build-gz\\1v7lMnr9.gz",
       "SourceId": "PersonalInformationApp",
       "SourceType": "Computed",
@@ -4335,6 +4352,23 @@
       "OriginalItemSpec": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.Algorithms.dll"
     },
     {
+      "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\obj\\Debug\\net6.0\\build-gz\\BMJLl1eW.gz",
+      "SourceId": "PersonalInformationApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
+    },
+    {
       "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\obj\\Debug\\net6.0\\build-gz\\BOIPCo3M.gz",
       "SourceId": "PersonalInformationApp",
       "SourceType": "Computed",
@@ -4624,6 +4658,23 @@
       "OriginalItemSpec": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.dll"
     },
     {
+      "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\obj\\Debug\\net6.0\\build-gz\\DWuXtxLH.gz",
+      "SourceId": "PersonalInformationApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Newtonsoft.Json.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Newtonsoft.Json.dll"
+    },
+    {
       "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\obj\\Debug\\net6.0\\build-gz\\DzZ76O84.gz",
       "SourceId": "PersonalInformationApp",
       "SourceType": "Computed",
@@ -4639,23 +4690,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ComponentModel.EventBasedAsync.dll"
-    },
-    {
-      "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\obj\\Debug\\net6.0\\build-gz\\E86nSPKD.gz",
-      "SourceId": "PersonalInformationApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\obj\\Debug\\net6.0\\build-gz\\eC+YRP0D.gz",
@@ -4724,23 +4758,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.Contracts.dll"
-    },
-    {
-      "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\obj\\Debug\\net6.0\\build-gz\\eooxNTNe.gz",
-      "SourceId": "PersonalInformationApp",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\obj\\Debug\\net6.0\\build-gz\\epCYIfiP.gz",
@@ -4879,6 +4896,23 @@
       "OriginalItemSpec": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ServiceModel.Web.dll"
     },
     {
+      "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\obj\\Debug\\net6.0\\build-gz\\g3qnbJvQ.gz",
+      "SourceId": "PersonalInformationApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
       "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\obj\\Debug\\net6.0\\build-gz\\gkaDERDP.gz",
       "SourceId": "PersonalInformationApp",
       "SourceType": "Computed",
@@ -4979,6 +5013,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Runtime.Intrinsics.dll"
+    },
+    {
+      "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\obj\\Debug\\net6.0\\build-gz\\gZUQlszy.gz",
+      "SourceId": "PersonalInformationApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Authorization.dll"
     },
     {
       "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\obj\\Debug\\net6.0\\build-gz\\hbOw+8in.gz",
@@ -6086,6 +6137,23 @@
       "OriginalItemSpec": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ValueTuple.dll"
     },
     {
+      "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\obj\\Debug\\net6.0\\build-gz\\RpEBVQCI.gz",
+      "SourceId": "PersonalInformationApp",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\obj\\Debug\\net6.0\\build-gz\\S8SUG9Am.gz",
       "SourceId": "PersonalInformationApp",
       "SourceType": "Computed",
@@ -7087,6 +7155,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
+    },
+    {
+      "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\wwwroot\\main.js",
+      "SourceId": "PersonalInformationApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "main.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\main.js"
     },
     {
       "Identity": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\wwwroot\\sample-data\\weather.json",

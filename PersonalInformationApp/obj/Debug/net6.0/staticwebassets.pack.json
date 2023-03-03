@@ -73,6 +73,10 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\wwwroot\\main.js",
+      "PackagePath": "staticwebassets\\main.js"
+    },
+    {
       "Id": "C:\\Users\\ToanLK\\source\\repos\\PersonInformatin\\PersonalInformationApp\\wwwroot\\sample-data\\weather.json",
       "PackagePath": "staticwebassets\\sample-data\\weather.json"
     },

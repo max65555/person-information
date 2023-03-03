@@ -1,18 +1,22 @@
 ﻿<div class="container">
     <span class="input-label">@label</span>
-    <div class="input-wrapper">
-        <input type="text"
+    <div class="input-wrapper @errorClass" >
+        <input type="@typeOfInput"
             placeholder="@placeholder"
                class="input-text" value="@TheValue"
-               @oninput="OnTheValueChanged" />
+               @oninput="OnTheValueChanged"
+               @onblur="CheckInputValue"
+               />
     </div>
 </div>
 @code {
     [Parameter]
+    public string? typeOfInput { get; set; } = "text";
+    [Parameter]
     public string?  placeholder { get; set; } = "";
     [Parameter]
     public string? label { get; set; } = "";
-
+    public string errorClass { get; set; } = "";
     //Bind value
     [Parameter]
     public string TheValue { get; set; }
@@ -21,7 +25,21 @@
 
     private Task OnTheValueChanged(ChangeEventArgs e)
     {
+        if (!string.IsNullOrWhiteSpace(TheValue))
+        {
+            errorClass = "";
+        }
         TheValue = e.Value.ToString();
         return TheValueChanged.InvokeAsync(TheValue);
+    }
+    private void CheckInputValue(){
+        if (string.IsNullOrWhiteSpace(TheValue))
+        {
+            errorClass = "errorClass";
+        }
+        else 
+        {
+            errorClass = "";
+        }
     }
 }

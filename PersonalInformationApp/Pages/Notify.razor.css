@@ -1,0 +1,21 @@
+﻿.notify-container {
+    padding: 12px;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+.notify-logo{
+    width:50px;
+    height:50px;
+    font-size:50px;
+
+}
+.notify-wrapper{
+    display:flex;
+    align-items:center;
+}
+.notify-title {
+    padding: 4px;
+}
+.notify-detail {
+    padding: 4px;
+    text-align:center;
+}

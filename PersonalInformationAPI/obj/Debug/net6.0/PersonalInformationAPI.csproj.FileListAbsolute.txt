@@ -31,3 +31,4 @@ C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationAPI\obj\Debug\n
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationAPI\obj\Debug\net6.0\PersonalInformationAPI.genruntimeconfig.cache
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationAPI\obj\Debug\net6.0\ref\PersonalInformationAPI.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationAPI\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationAPI\bin\Debug\net6.0\Newtonsoft.Json.dll

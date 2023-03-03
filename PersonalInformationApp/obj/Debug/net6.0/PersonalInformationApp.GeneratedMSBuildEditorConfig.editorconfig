@@ -32,12 +32,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YVRhYmxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/DummyComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRHVtbXlDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/FetchData.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRmV0Y2hEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/LifeCircleExample.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlmZUNpcmNsZUV4YW1wbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/Login.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Shared/SurveyPrompt.razor]
@@ -59,6 +71,14 @@ build_metadata.AdditionalFiles.CssScope = b-7tcr1edzfc
 [C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/Insert.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zZXJ0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-rzca7c8qsa
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/Notify.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWZ5LnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-gjyt3wfow2
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/Update.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-afy9df7a0a
 
 [C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=

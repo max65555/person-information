@@ -1,0 +1,22 @@
+﻿@page "/notify"
+<div class="notify-container">
+    <div class="notify-wrapper">
+        <span style="color:@color" class="oi @notifyIcon notify-logo" aria-hidden="true"></span>
+        <span class="notify-title" >@notifyType</span>
+    </div>
+    <div class="notify-detail">
+        @notifyMessage
+    </div>
+</div>
+
+
+@code {
+    [Parameter]
+    public string color{ get; set; }
+    [Parameter]
+    public string notifyType { get; set; }
+    [Parameter]
+    public string notifyMessage { get; set; }
+    [Parameter]
+    public string notifyIcon { get; set; }
+}
