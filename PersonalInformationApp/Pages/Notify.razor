@@ -1,22 +1,28 @@
 ﻿@page "/notify"
 <div class="notify-container">
-    <div class="notify-wrapper">
-        <span style="color:@color" class="oi @notifyIcon notify-logo" aria-hidden="true"></span>
-        <span class="notify-title" >@notifyType</span>
-    </div>
-    <div class="notify-detail">
-        @notifyMessage
-    </div>
+    <h1>Warning</h1>
+    <p>@NotifyText</p>
+   <div class="">
+        <button type="button" class="btn btn-danger" @onclick="ClickTheMainButton">Confirm</button>
+        <button type="button" class="btn btn-primary" @onclick="ClickTheSemiButton">Close</button>
+   </div>
 </div>
 
 
 @code {
     [Parameter]
-    public string color{ get; set; }
+    public string NotifyText { get; set; }
     [Parameter]
-    public string notifyType { get; set; }
+    public EventCallback OnMainButtonClick { get; set; }
     [Parameter]
-    public string notifyMessage { get; set; }
-    [Parameter]
-    public string notifyIcon { get; set; }
+    public EventCallback OnSemiButtonClick { get; set; }
+    private async Task ClickTheMainButton()
+    {
+        await OnMainButtonClick.InvokeAsync();
+    }
+   
+    private async Task ClickTheSemiButton()
+    {
+        await OnSemiButtonClick.InvokeAsync();
+    }
 }

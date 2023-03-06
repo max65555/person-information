@@ -1,5 +1,4 @@
 ﻿@page "/data-table"
-@page "/data-table?insert={insertResult?}"
 @using System.Net.Http
 @using System.Net.Http.Json
 @using System.IO
@@ -32,7 +31,7 @@
                     <td>@i.gender</td>
                     <td class="function-row">
                         <Comp_Button label="delete"
-                                 OnButtonClick="()=>DeleteEvent(i.personID)"></Comp_Button>
+                                 OnButtonClick="()=>PlayPopUp(i.personID)"></Comp_Button>
                         <Comp_Button label="update"
                                  OnButtonClick="()=>UpdateEvent(i.personID)"></Comp_Button>
                     </td>
@@ -41,24 +40,24 @@
             <!--end foreach-->
         </tbody>
     </table>
-    @if(insertResult == "true"){
-        <div>test1</div>
+    @if(isConfirm){
+        <Notify NotifyText="Do you want to delete ?" OnMainButtonClick="DeleteIt"
+            OnSemiButtonClick="()=>PlayPopUp(currentPersonIdIsGoingToDelete)"></Notify>
     }
 </div>
 <style>
 .function-row{
     display:flex;
 }
-
     .function-row:first-child{
         padding-right:4px;
     }
 </style>
 
 @code {
-    [Parameter]
-    public string insertResult { get; set; }
+    private int? currentPersonIdIsGoingToDelete;
     private Person[]? listOfPerson;
+    private bool isConfirm;
     private dynamic notify;
     protected override async Task OnInitializedAsync(){
         listOfPerson = await Http.GetFromJsonAsync<Person[]>("https://localhost:7126/api/person"); 
@@ -68,16 +67,28 @@
         StateHasChanged();
         //_navigationManager.NavigateTo("data-table",true);
     }
-    public async void DeleteEvent(int i){
-        //notify = await Http.DeleteAsync("https:localhost:7126/api/person/" + i);
-        Console.WriteLine("deleting " + i);
+
+    public void PlayPopUp(int? i){
+        currentPersonIdIsGoingToDelete = i;
+        isConfirm = !isConfirm;
+    }
+    public async void DeleteEvent(int? i){
         notify = await Http.DeleteAsync("https://localhost:7126/api/person/" + i);
         Console.WriteLine(notify);
-        getData();
+    }
+    public async void DeleteIt()
+    {
+        PlayPopUp(null);
+        Console.WriteLine(notify);
+
+        if(currentPersonIdIsGoingToDelete.HasValue){
+            DeleteEvent(currentPersonIdIsGoingToDelete);
+        }
     }
     public void UpdateEvent(int id){
         _navigationManager.NavigateTo($"update/{id}", true);
     }
+    
     //private Stream GetFileStream(){
     //    var fileValue = JsonConvert.SerializeObject(listOfPerson);
 
