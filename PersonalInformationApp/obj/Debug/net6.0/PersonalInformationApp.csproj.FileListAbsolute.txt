@@ -8,6 +8,7 @@ C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\n
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\icudt_EFIGS.dat
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\icudt_no_CJK.dat
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll
+C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Forms.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll
@@ -36,6 +37,7 @@ C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\n
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Win32.Registry.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\mscorlib.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\netstandard.dll
+C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\PersonalInformationApp.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\PersonalInformationApp.pdb
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.AppContext.dll
@@ -209,7 +211,6 @@ C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\n
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.DataAnnotations.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Configuration.dll.gz
-C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.VisualBasic.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.Options.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Private.Xml.Linq.dll.gz
@@ -252,6 +253,7 @@ C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\n
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Serialization.Json.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\WindowsBase.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Security.Cryptography.Algorithms.dll.gz
+C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Text.RegularExpressions.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.ZipFile.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Core.dll.gz
@@ -269,13 +271,12 @@ C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\n
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.IO.UnmanagedMemoryStream.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Physical.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.IO.dll.gz
+C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.EventBasedAsync.dll.gz
-C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.JSInterop.WebAssembly.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Web.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Memory.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Diagnostics.Contracts.dll.gz
-C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Private.Runtime.InteropServices.JavaScript.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.Extensions.FileProviders.Abstractions.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Private.DataContractSerialization.dll.gz
@@ -284,12 +285,14 @@ C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\n
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.CompilerServices.Unsafe.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.ServiceModel.Web.dll.gz
+C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Authorization.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Drawing.Primitives.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XmlDocument.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Net.WebSockets.Client.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.ComponentModel.Annotations.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Resources.Reader.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Intrinsics.dll.gz
+C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Runtime.Numerics.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\icudt_no_CJK.dat.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Threading.Thread.dll.gz
@@ -355,6 +358,7 @@ C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\n
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Net.Mail.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Net.Quic.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.ValueTuple.dll.gz
+C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Metadata.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Data.DataSetExtensions.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.Net.Http.dll.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\System.IO.Compression.dll.gz
@@ -402,6 +406,7 @@ C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\n
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\PersonalInformationApp.pdb
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\Microsoft.AspNetCore.Authorization.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.dll
+C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Forms.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Web.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.WebAssembly.dll
@@ -422,6 +427,7 @@ C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\n
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\Microsoft.Extensions.Primitives.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\Microsoft.JSInterop.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\Microsoft.JSInterop.WebAssembly.dll
+C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\Newtonsoft.Json.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\System.IO.Pipelines.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\Microsoft.CSharp.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\Microsoft.VisualBasic.Core.dll
@@ -602,9 +608,13 @@ C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\n
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\PersonalInformationApp.AssemblyInfo.cs
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\PersonalInformationApp.csproj.CoreCompileInputs.cache
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\PersonalInformationApp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\g3qnbJvQ.gz
+C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\BMJLl1eW.gz
+C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\gZUQlszy.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\6ieIVGKo.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\EcQCiTxy.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\Dd+dESfB.gz
+C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\RpEBVQCI.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\ZgaYewZ6.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\PWRSGIWQ.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\wKrKc5H+.gz
@@ -621,6 +631,7 @@ C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\n
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\mnz1xj+m.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\InWaAMMw.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\eC+YRP0D.gz
+C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\DWuXtxLH.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\X+bKoCFG.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\qiBm38KX.gz
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\ctsiyb4q.gz
@@ -808,7 +819,7 @@ C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\n
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\staticwebassets.development.json
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\scopedcss\Pages\Comp_checkBox.razor.rz.scp.css
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\scopedcss\Pages\Comp_Input.razor.rz.scp.css
-C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\scopedcss\Pages\Insert.razor.rz.scp.css
+C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\scopedcss\Pages\Notify.razor.rz.scp.css
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\scopedcss\bundle\PersonalInformationApp.styles.css
@@ -818,16 +829,3 @@ C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\n
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\refint\PersonalInformationApp.dll
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\PersonalInformationApp.pdb
 C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\ref\PersonalInformationApp.dll
-C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll
-C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Newtonsoft.Json.dll.gz
-C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\Newtonsoft.Json.dll
-C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\DWuXtxLH.gz
-C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\scopedcss\Pages\Update.razor.rz.scp.css
-C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll
-C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\wwwroot\_framework\Microsoft.AspNetCore.Components.Authorization.dll.gz
-C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\bin\Debug\net6.0\Microsoft.AspNetCore.Components.Authorization.dll
-C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\g3qnbJvQ.gz
-C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\BMJLl1eW.gz
-C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\gZUQlszy.gz
-C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\build-gz\RpEBVQCI.gz
-C:\Users\ToanLK\source\repos\PersonInformatin\PersonalInformationApp\obj\Debug\net6.0\scopedcss\Pages\Notify.razor.rz.scp.css

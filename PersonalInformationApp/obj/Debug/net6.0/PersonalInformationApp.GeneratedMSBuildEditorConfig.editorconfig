@@ -20,16 +20,96 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Component/BarComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XEJhckNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Component/CaptureComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XENhcHR1cmVDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Component/CascadingExample.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XENhc2NhZGluZ0V4YW1wbGUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Component/Collapsible.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XENvbGxhcHNpYmxlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Component/FooComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XEZvb0NvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Component/LifeCycleComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XExpZmVDeWNsZUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Component/MultiThreading.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XE11bHRpVGhyZWFkaW5nLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Component/PersonIDCard.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XFBlcnNvbklEQ2FyZC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Component/ProofComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XFByb29mQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Component/RefComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XFJlZkNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Component/TabsComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XFRhYnNDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Component/TemplateComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XFRlbXBsYXRlQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Component/TestOne.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50XFRlc3RPbmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/CustomTabController/TabControl.razor]
+build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tVGFiQ29udHJvbGxlclxUYWJDb250cm9sLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/CustomTabController/TabItem.razor]
+build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tVGFiQ29udHJvbGxlclxUYWJJdGVtLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/CustomTabController/TabWrapper.razor]
+build_metadata.AdditionalFiles.TargetPath = Q3VzdG9tVGFiQ29udHJvbGxlclxUYWJXcmFwcGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Data/LEDComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = RGF0YVxMRURDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Data/MainComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = RGF0YVxNYWluQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/GenericType/IndexComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = R2VuZXJpY1R5cGVcSW5kZXhDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/GenericType/TypeParamComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = R2VuZXJpY1R5cGVcVHlwZVBhcmFtQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/CasCadingExample.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FzQ2FkaW5nRXhhbXBsZS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/Comp_Button.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcF9CdXR0b24ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/DataTable.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGF0YVRhYmxlLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/DummyComponent.razor]
@@ -44,6 +124,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/LandingPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGFuZGluZ1BhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/LifeCircleExample.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTGlmZUNpcmNsZUV4YW1wbGUucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
@@ -52,8 +136,48 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTG9naW4ucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/MainHomeLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFpbkhvbWVMYXlvdXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/MyChildPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlDaGlsZFBhZ2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/MyPage.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTXlQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/RefComponentSequence.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUmVmQ29tcG9uZW50U2VxdWVuY2UucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Route/Router.razor]
+build_metadata.AdditionalFiles.TargetPath = Um91dGVcUm91dGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Shared/MyLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE15TGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Shared/NoLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE5vTGF5b3V0LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXFN1cnZleVByb21wdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/TabController/TabControl.razor]
+build_metadata.AdditionalFiles.TargetPath = VGFiQ29udHJvbGxlclxUYWJDb250cm9sLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/TabController/TabPage.razor]
+build_metadata.AdditionalFiles.TargetPath = VGFiQ29udHJvbGxlclxUYWJQYWdlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/TabController/TabWrapper.razor]
+build_metadata.AdditionalFiles.TargetPath = VGFiQ29udHJvbGxlclxUYWJXcmFwcGVyLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/_Imports.razor]
@@ -68,17 +192,9 @@ build_metadata.AdditionalFiles.CssScope = b-78f1vpdvw7
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29tcF9JbnB1dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = b-7tcr1edzfc
 
-[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/Insert.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5zZXJ0LnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-rzca7c8qsa
-
 [C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/Notify.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTm90aWZ5LnJhem9y
 build_metadata.AdditionalFiles.CssScope = b-gjyt3wfow2
-
-[C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Pages/Update.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXBkYXRlLnJhem9y
-build_metadata.AdditionalFiles.CssScope = b-afy9df7a0a
 
 [C:/Users/ToanLK/source/repos/PersonInformatin/PersonalInformationApp/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=

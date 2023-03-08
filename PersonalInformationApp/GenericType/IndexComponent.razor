@@ -1,0 +1,17 @@
+﻿@page "/index-component"
+<TypeParamComponent Data=@people>
+    @context.Salutation @context.FamilyName, @context.GivenName
+</TypeParamComponent>
+@code {
+    public Person[] people;
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        people = new Person[]
+        {
+      new Person { Salutation = "Mr", GivenName = "Bob", FamilyName = "Geldof" },
+      new Person { Salutation = "Mrs", GivenName = "Angela", FamilyName = "Rippon" },
+      new Person { Salutation = "Mr", GivenName = "Freddie", FamilyName = "Mercury" }
+        };
+    }
+}

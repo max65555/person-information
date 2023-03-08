@@ -1,0 +1,11 @@
+﻿@implements IDisposable
+<div>
+   <h1>Hello, </h1>
+</div>
+@code {
+    void IDisposable.Dispose()
+    {
+        // Code here
+        Console.WriteLine("Dispose has been invoked");
+    }
+}

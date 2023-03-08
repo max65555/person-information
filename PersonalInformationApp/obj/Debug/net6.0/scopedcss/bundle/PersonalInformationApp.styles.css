@@ -49,18 +49,6 @@ input[b-78f1vpdvw7]{
     border:1px solid red;
     
 }
-/* /Pages/Insert.razor.rz.scp.css */
-.container[b-rzca7c8qsa] {
-    max-width:calc(100% - 40%);  
-    margin-left: auto;
-    margin-right: auto;
-    padding:12px;
-    border-radius:8px;
-    border: 1px solid gray; 
-}
-.input-wrapper[b-rzca7c8qsa] {
-    display:flex;
-}
 /* /Pages/Notify.razor.rz.scp.css */
 .notify-container[b-gjyt3wfow2] {
     padding: 12px;
@@ -82,18 +70,6 @@ input[b-78f1vpdvw7]{
 .notify-detail[b-gjyt3wfow2] {
     padding: 4px;
     text-align:center;
-}
-/* /Pages/Update.razor.rz.scp.css */
-.container[b-afy9df7a0a] {
-    max-width:calc(100% - 40%);  
-    margin-left: auto;
-    margin-right: auto;
-    padding:12px;
-    border-radius:8px;
-    border: 1px solid gray; 
-}
-.input-wrapper[b-afy9df7a0a] {
-    display:flex;
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-mnmwd32vp0] {

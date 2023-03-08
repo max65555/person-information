@@ -1,0 +1,35 @@
+﻿@page "/cascading-example"
+
+<h1>Toggle the options</h1>
+<input @bind-value=FirstOptionValue type="checkbox" /> First option
+<br />
+<input @bind-value=SecondOptionValue type="checkbox" /> Second option
+<br />
+
+<CascadingValue Name="FirstOption" Value=@FirstOptionValue>
+  <CascadingValue Name="SecondOption" Value=@SecondOptionValue>
+    <FirstLevelComponent />
+  </CascadingValue>
+</CascadingValue>
+
+@code {
+  bool FirstOptionValue;
+  bool SecondOptionValue;
+}
+
+Consuming the value is just as simple.
+Any component, no matter how deeply nested it is inside the `CascadingValue` element, can access the value with a 
+property decorated with the `CascadingParameter` attribute.
+
+<ul>
+  <li>FirstOption = @FirstOption</li>
+  <li>SecondOption = @SecondOption</li>
+</ul>
+
+@code {
+  [CascadingParameter(Name="FirstOption")]
+  private bool FirstOption { get; set; }
+
+  [CascadingParameter(Name="SecondOption")]
+  private bool SecondOption { get; set; }
+}

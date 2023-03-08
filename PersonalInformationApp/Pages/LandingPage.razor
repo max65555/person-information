@@ -1,0 +1,8 @@
+﻿@page "/landing"
+@using PersonalInformationApp.Component
+@layout NoLayout
+<input type="text" @ref="ElementRef"></input>
+<RefComponentSequence GetControl="@(()=>ElementRef)"></RefComponentSequence>
+@code {
+    private ElementReference ElementRef;
+}

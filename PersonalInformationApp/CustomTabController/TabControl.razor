@@ -1,0 +1,24 @@
+﻿<CascadingValue Value="this">
+    @foreach(TabItem var in list)
+    {
+        <button @onclick=SwitchPage  >Click</button>
+    }
+</CascadingValue>
+@code {
+    public List<TabItem> list = new List<TabItem>();
+    
+    public TabItem currentPage;
+    public void addItem(TabItem directItem)
+    {
+        list.Add(directItem);
+        if(list.Count == 1)
+        {
+            currentPage = directItem;
+        }
+        StateHasChanged();
+    }
+    public void SwitchPage()
+    {
+        
+    }
+}

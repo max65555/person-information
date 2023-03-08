@@ -1,0 +1,15 @@
+﻿@page "/capture"
+<h3>capture</h3>
+<div class="row" role="img" aria-label="@alt">
+    <img src=@src @attributes=AllOtherAttribute
+        />
+</div>
+@code {
+    [Parameter]
+    public string src{ get; set; }
+    [Parameter]
+    public string alt { get; set; }
+    [Parameter(CaptureUnmatchedValues =true)]
+    public Dictionary<string,object> AllOtherAttribute{ get; set; }
+
+}

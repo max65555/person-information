@@ -1,0 +1,17 @@
+﻿<button @onclick="OnClick">@Action</button>
+@if(isShow){
+    <div class="card-text">
+        @ChildContent
+    </div>
+}
+
+@code {
+    [Parameter]
+    public RenderFragment ChildContent{ get; set; }
+    private bool isShow = false;
+    private string Action = "Expand";
+    private void OnClick(){
+        isShow = !isShow;
+        Action = isShow ? "Colap" : "Expand";
+    }
+}

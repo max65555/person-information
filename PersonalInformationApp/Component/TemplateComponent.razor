@@ -1,0 +1,14 @@
+﻿@page "/template"
+@ChildContent
+@code {
+    [CascadingParameter]
+    public TabsComponent parent{ get; set; }
+    [Parameter]
+    public RenderFragment ChildContent{ get; set; }
+    protected override void OnInitialized()
+    {
+        if (parent == null)
+            throw new ArgumentNullException(nameof(parent), "Template must exist within a Tabs");
+        base.OnInitialized();
+    }
+}

@@ -1,0 +1,16 @@
+﻿@inject IJSRuntime JSRuntime
+@code {
+    [Parameter]
+    public Func<ElementReference> GetControl { get; set; }
+    protected override async Task OnAfterRenderAsync(bool firstRender)
+    {
+        if(GetControl is null)
+        {
+            throw new ArgumentException("test1");
+        }
+        if (firstRender)
+        {   
+            await JSRuntime.InvokeVoidAsync("AutoFocusFunction", GetControl());
+        }
+    }
+}

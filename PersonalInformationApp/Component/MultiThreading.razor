@@ -1,0 +1,21 @@
+﻿@using System.Threading
+<h3>MultiThreading</h3>
+<p>current Thread @IdOfRenderingThread</p>
+@code {
+    private int IdOfRenderingThread;
+    protected override async Task OnInitializedAsync()
+    {
+        // Runs synchronously as there is no code in base.OnInitialized(),
+        // so the same thread is used
+        await base.OnInitializedAsync().ConfigureAwait(false);
+        IdOfRenderingThread =
+          System.Threading.Thread.CurrentThread.ManagedThreadId;
+        // Awaiting will schedule a job for later, and we will be assigned
+        // whichever worker thread is next available
+        await Task.Delay(1000).ConfigureAwait(false);
+        IdOfRenderingThread =
+          System.Threading.Thread.CurrentThread.ManagedThreadId;
+    }
+
+
+}

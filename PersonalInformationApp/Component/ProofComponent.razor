@@ -1,0 +1,20 @@
+﻿@page "/proof"
+<h3>ProofComponent</h3>
+<button @onclick=@ChangeData>Change Data</button>
+<ol>
+    @foreach(string item in Items)
+    {
+        <li>@item</li> 
+    }
+</ol>
+@code {
+    List<string> Items = new List<string>(){
+        "One","Two","3"
+    };
+    void ChangeData()
+    {
+        Items[0] = "1";
+        Items[1] = "2";
+        Items.Add("4");
+    }
+}

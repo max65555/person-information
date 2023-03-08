@@ -1,0 +1,13 @@
+﻿@ChildContent
+@code {
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+    [CascadingParameter]
+    public TabControl parent { get; set; }
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+        parent.addItem(this);
+    }
+
+}
